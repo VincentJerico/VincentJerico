@@ -1,22 +1,25 @@
 ```
- _    _______   ______________
-| |  / /  _/ | / / ____/ ____/     Vincent Jerico Alcuran
-| | / // //  |/ / /   / __/        Software QA  →  QA/QC Engineer & SDET
-| |/ // // /|  / /___/ /___
-|___/___/_/ |_/\____/_____/        automate everything · test like an adversary
+888     888888888      Vincent Jerico Alcuran
+888     888  "88b      Software QA  →  QA/QC Engineer & SDET
+888     888   888
+Y88b   d88P   888      automate everything · test like an adversary
+ Y88b d88P    888      exploring: Cybersecurity · Cloud Engineering
+  Y88o88P     888
+   Y888P      88P
+    Y8P       888
 ```
 
 `QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD ENTHUSIAST` · `🇵🇭 PHILIPPINES`
 
-![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=0e75b6&style=flat-square&label=PROFILE+VIEWS)
-![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-2ea44f?style=flat-square)
+![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=fe428e&style=flat-square&label=PROFILE+VIEWS)
+![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-fe428e?style=flat-square)
 
 ---
 
 ## [ ABOUT ]
 
 ```yaml
-vince@github ~ $ whoami
+vincentjerico@github ~ $ whoami
 
   role       : Software QA        # goal → QA/QC Engineer & SDET
   degree     : BSc in Information Technology
@@ -26,7 +29,7 @@ vince@github ~ $ whoami
   location   : Philippines
   contact    : vincentjericoalcuran@gmail.com
 
-vince@github ~ $ cat mission.txt
+vincentjerico@github ~ $ cat mission.txt
   "Where others see a finished app, I see claims waiting to be verified.
    I build the automation that lets quality scale — and I'm aiming it
    next at security and the cloud."
@@ -63,14 +66,14 @@ code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nb
 ## [ LANGUAGES ]
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=dark" alt="stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=dark" alt="top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=radical" alt="stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=radical" alt="top languages" />
 </p>
 
 ---
 
 ```
-vince@github ~ $ echo $PHILOSOPHY
+vincentjerico@github ~ $ echo $PHILOSOPHY
 > Quality isn't an act — it's a habit. Building it, one green pipeline at a time.
-vince@github ~ $ ▮
+vincentjerico@github ~ $ ▮
 ```
