@@ -1,15 +1,18 @@
 ```
-888     888888888      Vincent Jerico Alcuran
-888     888  "88b      Software QA  →  QA/QC Engineer & SDET
-888     888   888
-Y88b   d88P   888      automate everything · test like an adversary
- Y88b d88P    888      exploring: Cybersecurity · Cloud Engineering
-  Y88o88P     888
-   Y888P      88P
-    Y8P       888
+                          Vincent Jerico Alcuran
+8b           d8    88      Software QA  →  QA/QC Engineer & SDET
+`8b         d8'    88
+ `8b       d8'     88      automate everything · test like an adversary
+  `8b     d8'      88      exploring: Cybersecurity · Cloud Engineering
+   `8b   d8'       88
+    `8b d8'        88
+     `888' 88,   ,d88
+      `8'   "Y8888P"
 ```
 
-`QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD ENTHUSIAST` · `🇵🇭 PHILIPPINES`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FE428E&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
+
+`QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD` · `🇵🇭 PHILIPPINES`
 
 ![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=fe428e&style=flat-square&label=PROFILE+VIEWS)
 ![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-fe428e?style=flat-square)
@@ -63,12 +66,18 @@ automation, SQL, performance, security, and AI evaluation — every area execute
 a documented test strategy, and a seed-and-catch-bugs exercise that proves the suite fails when the
 code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
 
-## [ LANGUAGES ]
+## [ STATS ]
 
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=radical" alt="stats" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=radical" alt="top languages" />
 </p>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=VincentJerico&hide_border=true&theme=radical&background=00000000&ring=FE428E&fire=FE428E&currStreakLabel=FE428E" alt="streak" />
+
+## [ TROPHIES ]
+
+<img src="https://github-profile-trophy.vercel.app/?username=VincentJerico&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
 
 ---
 
