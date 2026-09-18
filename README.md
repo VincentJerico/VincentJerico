@@ -1,84 +1,76 @@
-<h1 align="center">Vincent Jerico Alcuran</h1>
-<p align="center">
-  <b>Software QA</b> on the road to <b>QA/QC Engineer &amp; SDET</b> — automating everything that can be automated.
-</p>
-<p align="center">
-  <i>“Most people ship features and hope. I ship features and <b>prove</b> them.”</i>
-</p>
-
----
-
-I'm a **Bachelor of Science in Information Technology** graduate who found his craft where curiosity
-meets rigor: **quality assurance**. Where others see a finished app, I see a set of claims waiting to
-be verified — edge cases to probe, contracts to enforce, and the quiet failures worth finding *before*
-a user ever does.
-
-Today I work as a **Software QA**, but my trajectory points squarely at **QA/QC Engineering and SDET**:
-building the automation and frameworks that let quality scale beyond what any manual effort could
-reach. I test like an optimist with a plan — I believe every system *can* be made better, and I enjoy
-being the person who quietly makes that true.
-
-Beyond testing, I'm a **Cybersecurity** and **Cloud Engineering** enthusiast. Breaking things
-responsibly and building things that don't break easily are two sides of the same coin, and I want to
-be fluent in both.
-
-```ts
-test('Vincent Jerico — career spec', async () => {
-  const vince = new Engineer({ degree: 'BSIT', mindset: ['visionary', 'positive'] });
-
-  await vince.master(['manual testing', 'test design', 'API', 'SQL']);
-  await vince.automate('everything');                 // UI · API · performance · pipelines
-
-  expect(vince.currentRole).toBe('Software QA');
-  expect(vince.goal).toEqual(['QA/QC Engineer', 'SDET']);
-
-  vince.exploring(['Cybersecurity', 'Cloud Engineering']);
-
-  expect(vince.nextRelease).toBe('better than the last'); // always
-});
-// ✓ 1 passed — and counting
+```
+ _    _______   ______________
+| |  / /  _/ | / / ____/ ____/     Vincent Jerico Alcuran
+| | / // //  |/ / /   / __/        Software QA  →  QA/QC Engineer & SDET
+| |/ // // /|  / /___/ /___
+|___/___/_/ |_/\____/_____/        automate everything · test like an adversary
 ```
 
-### 🧪 What I'm running right now
-Sharpening automation and SDET skills, and turning everything I learn into public, tested, CI-backed
-projects. I'd rather show a green pipeline than a bullet on a résumé.
+`QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD ENTHUSIAST` · `🇵🇭 PHILIPPINES`
 
-### 🎯 Expected results (my roadmap)
-- **Grow into a QA/QC Engineer & SDET** who owns test strategy, frameworks, and quality gates.
-- **Automate relentlessly** — if a check can run without a human, it should.
-- **Go deep in Cybersecurity & Cloud** — secure-by-design thinking and infrastructure I can trust.
+![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=0e75b6&style=flat-square&label=PROFILE+VIEWS)
+![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-2ea44f?style=flat-square)
 
-### 🧰 Toolbox
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![k6](https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
-&nbsp;
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-&nbsp;
-![OWASP](https://img.shields.io/badge/Security-OWASP-000000?style=flat&logo=owasp&logoColor=white)
-![Cloud](https://img.shields.io/badge/Cloud-Enthusiast-0089D6?style=flat&logo=icloud&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+---
 
-### 📌 Featured work
-- **[qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey)** — my end-to-end
-  QA portfolio: manual testing, test design, API, automation (Playwright), SQL, performance (k6),
-  security (OWASP), and AI evaluation — every area executed live, documented, and run in CI.
-- **[taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test)** — an app I built
-  *specifically to test*: unit + API + E2E coverage, a documented test strategy, and a
-  "seed-and-catch-bugs" exercise that proves the suite fails when the code is wrong.
+## [ ABOUT ]
 
-### 📊 By the numbers
+```yaml
+vince@github ~ $ whoami
+
+  role       : Software QA        # goal → QA/QC Engineer & SDET
+  degree     : BSc in Information Technology
+  focus      : automate everything · prove features, don't hope
+  exploring  : Cybersecurity · Cloud Engineering
+  mindset    : visionary + relentlessly positive
+  location   : Philippines
+  contact    : vincentjericoalcuran@gmail.com
+
+vince@github ~ $ cat mission.txt
+  "Where others see a finished app, I see claims waiting to be verified.
+   I build the automation that lets quality scale — and I'm aiming it
+   next at security and the cloud."
+```
+
+## [ STACK ]
+
+| TESTING | AUTOMATION | API | DATA | CLOUD / DEVOPS | SECURITY |
+|---|---|---|---|---|---|
+| Manual · Exploratory | Playwright | Postman | SQL | GitHub Actions | OWASP checks |
+| Test design (EP/BVA) | Vitest · Supertest | REST | SQLite | Git · CI/CD | Auth / access control |
+| Bug reporting | k6 (performance) | Contract & status | Data validation | AWS *(learning)* | Security headers |
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat-square&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-000?style=flat-square&logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs)
+![Playwright](https://img.shields.io/badge/Playwright-000?style=flat-square&logo=playwright)
+![Postman](https://img.shields.io/badge/Postman-000?style=flat-square&logo=postman)
+![k6](https://img.shields.io/badge/k6-000?style=flat-square&logo=k6)
+![SQLite](https://img.shields.io/badge/SQLite-000?style=flat-square&logo=sqlite)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-000?style=flat-square&logo=githubactions)
+![OWASP](https://img.shields.io/badge/OWASP-000?style=flat-square&logo=owasp)
+
+## [ PROJECTS ]
+
+**`[01]` qa-engineering-journey** — full-spectrum QA portfolio: manual testing, test design, API,
+automation, SQL, performance, security, and AI evaluation — every area executed live and run in CI.
+`stack →` Playwright · k6 · SQL · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/qa-engineering-journey)
+
+**`[02]` taskflow-under-test** — an app I built *specifically to be tested*: unit + API + E2E coverage,
+a documented test strategy, and a seed-and-catch-bugs exercise that proves the suite fails when the
+code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
+
+## [ LANGUAGES ]
+
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=dark" alt="stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=dark" alt="top languages" />
 </p>
 
 ---
 
-<p align="center"><i>Quality isn't an act — it's a habit. I'm building that habit, one green pipeline at a time.</i></p>
-<p align="center">📫 <a href="mailto:vincentjericoalcuran@gmail.com">vincentjericoalcuran@gmail.com</a></p>
+```
+vince@github ~ $ echo $PHILOSOPHY
+> Quality isn't an act — it's a habit. Building it, one green pipeline at a time.
+vince@github ~ $ ▮
+```
