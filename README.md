@@ -79,6 +79,14 @@ code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nb
 
 <img src="https://github-profile-trophy.vercel.app/?username=VincentJerico&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
 
+## [ CONTRIBUTIONS ]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+</picture>
+
 ---
 
 ```
