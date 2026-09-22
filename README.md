@@ -10,12 +10,12 @@
       `8'   "Y8888P"
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FE428E&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
 
 `QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD` · `🇵🇭 PHILIPPINES`
 
-![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=fe428e&style=flat-square&label=PROFILE+VIEWS)
-![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-fe428e?style=flat-square)
+![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=1f6feb&style=flat-square&label=PROFILE+VIEWS)
+![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-1f6feb?style=flat-square)
 
 ---
 
@@ -74,15 +74,15 @@ factories, and a cross-browser CI matrix (chromium · firefox · webkit).
 ## [ STATS ]
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&theme=radical" alt="stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&theme=radical" alt="top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="top languages" />
 </p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VincentJerico&hide_border=true&theme=radical&background=00000000&ring=FE428E&fire=FE428E&currStreakLabel=FE428E" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=VincentJerico&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="streak" />
 
 ## [ TROPHIES ]
 
-<img src="https://github-profile-trophy.vercel.app/?username=VincentJerico&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=VincentJerico&theme=algolia&no-frame=true&column=7&margin-w=4&margin-h=4" alt="trophies" />
 
 ## [ CONTRIBUTIONS ]
 
