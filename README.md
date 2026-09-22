@@ -38,6 +38,12 @@ vincentjerico@github ~ $ cat mission.txt
    next at security and the cloud."
 ```
 
+## [ CONNECT ]
+
+[![Email](https://img.shields.io/badge/Email-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vincentjericoalcuran@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-1f6feb?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/SeifukuSuru)
+[![Instagram](https://img.shields.io/badge/Instagram-1f6feb?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/seifuku_suru/)
+
 ## [ STACK ]
 
 | TESTING | AUTOMATION | API | DATA | CLOUD / DEVOPS | SECURITY |
@@ -51,12 +57,6 @@ vincentjerico@github ~ $ cat mission.txt
 <a href="#"><img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" /></a>
 
 <sub>+ k6 · Vitest · Supertest · OWASP checks</sub>
-
-## [ CONNECT ]
-
-[![Email](https://img.shields.io/badge/Email-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vincentjericoalcuran@gmail.com)
-[![Facebook](https://img.shields.io/badge/Facebook-1f6feb?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/SeifukuSuru)
-[![Instagram](https://img.shields.io/badge/Instagram-1f6feb?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/seifuku_suru/)
 
 ## [ PROJECTS ]
 
