@@ -46,15 +46,17 @@ vincentjerico@github ~ $ cat mission.txt
 | Test design (EP/BVA) | Vitest · Supertest | REST | SQLite | Git · CI/CD | Auth / access control |
 | Bug reporting | k6 (performance) | Contract & status | Data validation | AWS *(learning)* | Security headers |
 
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat-square&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-000?style=flat-square&logo=typescript)
-![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs)
-![Playwright](https://img.shields.io/badge/Playwright-000?style=flat-square&logo=playwright)
-![Postman](https://img.shields.io/badge/Postman-000?style=flat-square&logo=postman)
-![k6](https://img.shields.io/badge/k6-000?style=flat-square&logo=k6)
-![SQLite](https://img.shields.io/badge/SQLite-000?style=flat-square&logo=sqlite)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-000?style=flat-square&logo=githubactions)
-![OWASP](https://img.shields.io/badge/OWASP-000?style=flat-square&logo=owasp)
+**Languages & tools**
+
+<a href="#"><img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" /></a>
+
+<sub>+ k6 · Vitest · Supertest · OWASP checks</sub>
+
+## [ CONNECT ]
+
+[![Email](https://img.shields.io/badge/Email-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vincentjericoalcuran@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-1f6feb?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/SeifukuSuru)
+[![Instagram](https://img.shields.io/badge/Instagram-1f6feb?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/seifuku_suru/)
 
 ## [ PROJECTS ]
 
