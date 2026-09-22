@@ -73,16 +73,25 @@ factories, and a cross-browser CI matrix (chromium · firefox · webkit).
 
 ## [ STATS ]
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=VincentJerico&show_icons=true&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VincentJerico&layout=compact&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="top languages" />
-</p>
+![Followers](https://img.shields.io/github/followers/VincentJerico?style=flat-square&logo=github&label=Followers&labelColor=0d1117&color=1f6feb)
 
 <img src="https://streak-stats.demolab.com?user=VincentJerico&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="streak" />
 
-## [ TROPHIES ]
+**Most-used languages**
 
-<img src="https://github-profile-trophy.vercel.app/?username=VincentJerico&theme=algolia&no-frame=true&column=7&margin-w=4&margin-h=4" alt="trophies" />
+![TypeScript](https://img.shields.io/badge/TypeScript-1f6feb?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-1f6feb?style=flat-square&logo=javascript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-1f6feb?style=flat-square&logo=html5&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1f6feb?style=flat-square&logo=postgresql&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-1f6feb?style=flat-square&logo=gnubash&logoColor=white)
+
+**Repositories** — live CI status
+
+| Project | CI | Stars |
+|---------|----|-------|
+| [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey) | ![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/qa-engineering-journey?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
 
 ## [ CONTRIBUTIONS ]
 
