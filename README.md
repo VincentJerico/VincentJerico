@@ -66,6 +66,11 @@ automation, SQL, performance, security, and AI evaluation — every area execute
 a documented test strategy, and a seed-and-catch-bugs exercise that proves the suite fails when the
 code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
 
+**`[03]` playwright-framework-template** — a production-grade, reusable Playwright + TypeScript
+framework: custom fixtures, Page Object Model, multi-env config, storage-state auth reuse, data
+factories, and a cross-browser CI matrix (chromium · firefox · webkit).
+`stack →` Playwright · TypeScript · Faker · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/playwright-framework-template)
+
 ## [ STATS ]
 
 <p>
