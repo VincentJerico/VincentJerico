@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VincentJerico&color=1f6feb&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=VincentJerico.VincentJerico&left_text=Profile%20Views&left_color=0d1117&right_color=1f6feb" alt="profile views" />
   <img src="https://img.shields.io/badge/focus-quality%20%26%20automation-1f6feb?style=flat-square" alt="focus" />
 </p>
 
