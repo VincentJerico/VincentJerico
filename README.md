@@ -1,41 +1,50 @@
-```
-                          Vincent Jerico Alcuran
-8b           d8    88      Software QA  →  QA/QC Engineer & SDET
-`8b         d8'    88
- `8b       d8'     88      automate everything · test like an adversary
-  `8b     d8'      88      exploring: Cybersecurity · Cloud Engineering
-   `8b   d8'       88
-    `8b d8'        88
-     `888' 88,   ,d88
-      `8'   "Y8888P"
-```
+<h1 align="center">Vincent Jerico Alcuran</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
+<p align="center"><b>Software QA &nbsp;→&nbsp; QA/QC Engineer &amp; SDET</b> · automate everything · test like an adversary</p>
 
-`QA ENGINEER` · `SDET IN PROGRESS` · `CYBERSECURITY + CLOUD` · `🇵🇭 PHILIPPINES`
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
+</p>
 
-![Profile views](https://komarev.com/ghpvc/?username=VincentJerico&color=1f6feb&style=flat-square&label=PROFILE+VIEWS)
-![Focus](https://img.shields.io/badge/focus-quality%20%26%20automation-1f6feb?style=flat-square)
+<p align="center">
+  <code>QA ENGINEER</code> · <code>SDET IN PROGRESS</code> · <code>CYBERSECURITY + CLOUD</code> · 🇵🇭 PHILIPPINES
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VincentJerico&color=1f6feb&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+  <img src="https://img.shields.io/badge/focus-quality%20%26%20automation-1f6feb?style=flat-square" alt="focus" />
+</p>
 
 ---
+
+## [ CONTRIBUTIONS ]
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+    <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+  </picture>
+</p>
 
 ## [ ABOUT ]
 
 ```yaml
 vincentjerico@github ~ $ whoami
 
-  role       : Software QA        # goal → QA/QC Engineer & SDET
-  degree     : BSc in Information Technology
-  focus      : automate everything · prove features, don't hope
-  exploring  : Cybersecurity · Cloud Engineering
-  mindset    : visionary + relentlessly positive
-  location   : Philippines
-  contact    : vincentjericoalcuran@gmail.com
+  role      : Software QA          # goal → QA/QC Engineer & SDET
+  degree    : BSc in Information Technology
+  focus     : automate everything · prove features, don't hope
+  exploring : Cybersecurity · Cloud Engineering
+  mindset   : visionary + relentlessly positive
+  location  : Philippines
+  contact   : vincentjericoalcuran@gmail.com
 
 vincentjerico@github ~ $ cat mission.txt
-  "Where others see a finished app, I see claims waiting to be verified.
-   I build the automation that lets quality scale — and I'm aiming it
-   next at security and the cloud."
+
+  "Where others see a finished app, I see claims waiting to be
+   verified. I build the automation that lets quality scale —
+   and I'm aiming it next at security and the cloud."
 ```
 
 ## [ CONNECT ]
@@ -54,7 +63,7 @@ vincentjerico@github ~ $ cat mission.txt
 
 **Languages & tools**
 
-<a href="#"><img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" /></a>
+<img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" />
 
 <sub>+ k6 · Vitest · Supertest · OWASP checks</sub>
 
@@ -94,14 +103,6 @@ factories, and a cross-browser CI matrix (chromium · firefox · webkit).
 | [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey) | ![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/qa-engineering-journey?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
-
-## [ CONTRIBUTIONS ]
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
-  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
-</picture>
 
 ---
 
