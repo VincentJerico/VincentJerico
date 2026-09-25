@@ -1,19 +1,16 @@
-<h1 align="center">Vincent Jerico Alcuran</h1>
+# Yo 👋, I'm [Vincent](https://github.com/VincentJerico)!
 
-<p align="center"><b>Software QA &nbsp;→&nbsp; QA/QC Engineer &amp; SDET</b> · automate everything · test like an adversary</p>
+[![visitors](https://visitor-badge.laobi.icu/badge?page_id=VincentJerico.VincentJerico)](https://github.com/VincentJerico)
+[![GitHub followers](https://img.shields.io/github/followers/VincentJerico?label=Follow&style=social)](https://github.com/VincentJerico?tab=followers)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast;Visionary+%2B+relentlessly+positive" alt="typing" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast" alt="typing" />
 
-<p align="center">
-  <code>QA ENGINEER</code> · <code>SDET IN PROGRESS</code> · <code>CYBERSECURITY + CLOUD</code> · 🇵🇭 PHILIPPINES
-</p>
+**Talking about Personal Stuff!**
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=VincentJerico.VincentJerico&left_text=Profile%20Views&left_color=0d1117&right_color=1f6feb" alt="profile views" />
-  <img src="https://img.shields.io/badge/focus-quality%20%26%20automation-1f6feb?style=flat-square" alt="focus" />
-</p>
+- 🔭 I'm currently working on my QA automation portfolio — Playwright frameworks, API, and performance testing.
+- 🤔 I'm looking to grow into a **QA/QC Engineer & SDET**, and to go deeper into **Cybersecurity** and **Cloud Engineering**.
+- 💬 Ask me about test automation, Playwright, API testing, or anything QA.
+- 📫 How to reach me: [vincentjericoalcuran@gmail.com](mailto:vincentjericoalcuran@gmail.com)
 
 ---
 
