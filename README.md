@@ -79,6 +79,11 @@ framework: custom fixtures, Page Object Model, multi-env config, storage-state a
 factories, and a cross-browser CI matrix (chromium · firefox · webkit).
 `stack →` Playwright · TypeScript · Faker · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/playwright-framework-template)
 
+**`[04]` api-testing-framework** — a reusable, typed API test framework: typed clients, Zod
+schema/contract validation with a custom `toMatchSchema` matcher, auth fixtures, data factories, and
+automatic cleanup — plus a weekly CI run that catches contract drift.
+`stack →` Playwright · TypeScript · Zod · Faker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/api-testing-framework)
+
 ## [ STATS ]
 
 ![Followers](https://img.shields.io/github/followers/VincentJerico?style=flat-square&logo=github&label=Followers&labelColor=0d1117&color=1f6feb)
@@ -100,6 +105,7 @@ factories, and a cross-browser CI matrix (chromium · firefox · webkit).
 | [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey) | ![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/qa-engineering-journey?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [api-testing-framework](https://github.com/VincentJerico/api-testing-framework) | ![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/api-testing-framework?style=flat-square&labelColor=0d1117&color=1f6feb) |
 
 ---
 
