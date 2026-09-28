@@ -84,6 +84,11 @@ schema/contract validation with a custom `toMatchSchema` matcher, auth fixtures,
 automatic cleanup — plus a weekly CI run that catches contract drift.
 `stack →` Playwright · TypeScript · Zod · Faker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/api-testing-framework)
 
+**`[05]` accessibility-testing** — WCAG 2.2 AA testing, automated *and* by keyboard. axe-core found
+0 violations on SauceDemo; my keyboard audit found 7 WCAG failures, including a cart no keyboard user
+can reach. Each finding is documented with evidence and tracked by a test.
+`stack →` Playwright · axe-core · TypeScript · WCAG 2.2 &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/accessibility-testing)
+
 ## [ STATS ]
 
 ![Followers](https://img.shields.io/github/followers/VincentJerico?style=flat-square&logo=github&label=Followers&labelColor=0d1117&color=1f6feb)
@@ -106,6 +111,7 @@ automatic cleanup — plus a weekly CI run that catches contract drift.
 | [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [api-testing-framework](https://github.com/VincentJerico/api-testing-framework) | ![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/api-testing-framework?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/accessibility-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 
 ---
 
