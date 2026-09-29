@@ -3,11 +3,11 @@
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=VincentJerico.VincentJerico)](https://github.com/VincentJerico)
 [![GitHub followers](https://img.shields.io/github/followers/VincentJerico?label=Follow&style=social)](https://github.com/VincentJerico?tab=followers)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Automate+everything+%E2%80%94+test+like+an+adversary;Cybersecurity+%2B+Cloud+enthusiast" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Playwright+%C2%B7+API+%C2%B7+Performance+%C2%B7+Accessibility;Cybersecurity+%2B+Cloud+enthusiast" alt="typing" />
 
 **Talking about Personal Stuff!**
 
-- 🔭 I'm currently working on my QA automation portfolio — Playwright frameworks, API, and performance testing.
+- 🔭 I'm currently building my QA automation portfolio: Playwright frameworks, API, performance and accessibility testing.
 - 🤔 I'm looking to grow into a **QA/QC Engineer & SDET**, and to go deeper into **Cybersecurity** and **Cloud Engineering**.
 - 💬 Ask me about test automation, Playwright, API testing, or anything QA.
 - 📫 How to reach me: [vincentjericoalcuran@gmail.com](mailto:vincentjericoalcuran@gmail.com)
@@ -31,17 +31,15 @@ vincentjerico@github ~ $ whoami
 
   role      : Software QA          # goal → QA/QC Engineer & SDET
   degree    : BSc in Information Technology
-  focus     : automate everything · prove features, don't hope
+  focus     : test automation · Playwright · API · performance · accessibility
   exploring : Cybersecurity · Cloud Engineering
-  mindset   : visionary + relentlessly positive
   location  : Philippines
   contact   : vincentjericoalcuran@gmail.com
 
-vincentjerico@github ~ $ cat mission.txt
+vincentjerico@github ~ $ cat now.txt
 
-  "Where others see a finished app, I see claims waiting to be
-   verified. I build the automation that lets quality scale —
-   and I'm aiming it next at security and the cloud."
+  Building a public QA portfolio, one repo per testing skill,
+  each with its own CI. Next up: security testing and the cloud.
 ```
 
 ## [ CONNECT ]
@@ -66,28 +64,31 @@ vincentjerico@github ~ $ cat mission.txt
 
 ## [ PROJECTS ]
 
-**`[01]` qa-engineering-journey** — full-spectrum QA portfolio: manual testing, test design, API,
-automation, SQL, performance, security, and AI evaluation — every area executed live, with the
-automation, SQL checks, k6 scripts and AI evals gated in CI.
+**`[01]` qa-engineering-journey**<br>
+Manual testing, test design, API, UI automation, SQL, performance (k6), security and AI evaluation,
+each run against a live target. The automation, SQL checks, k6 scripts and AI evals run in CI.<br>
 `stack →` Playwright · k6 · SQL · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/qa-engineering-journey)
 
-**`[02]` taskflow-under-test** — an app I built *specifically to be tested*: unit + API + E2E coverage,
-a documented test strategy, and a seed-and-catch-bugs exercise that proves the suite fails when the
-code is wrong. `stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
+**`[02]` taskflow-under-test**<br>
+A small task-manager app I built to test. It has unit, API and E2E suites, a written test strategy,
+and a set of planted bugs the suite has to catch.<br>
+`stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
 
-**`[03]` playwright-framework-template** — a production-grade, reusable Playwright + TypeScript
-framework: custom fixtures, Page Object Model, multi-env config, storage-state auth reuse, data
-factories, and a cross-browser CI matrix (chromium · firefox · webkit).
+**`[03]` playwright-framework-template**<br>
+A reusable Playwright + TypeScript starter with custom fixtures, page objects, per-environment config,
+saved login state, data factories, and CI on Chromium, Firefox and WebKit.<br>
 `stack →` Playwright · TypeScript · Faker · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/playwright-framework-template)
 
-**`[04]` api-testing-framework** — a reusable, typed API test framework: typed clients, Zod
-schema/contract validation with a custom `toMatchSchema` matcher, auth fixtures, data factories, and
-automatic cleanup — plus a weekly CI run that catches contract drift.
+**`[04]` api-testing-framework**<br>
+Typed API tests on Playwright's request API. Zod schemas check each response through a custom
+`toMatchSchema` matcher, fixtures handle auth, and every test deletes the data it creates. CI also
+runs weekly to catch changes in the live API.<br>
 `stack →` Playwright · TypeScript · Zod · Faker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/api-testing-framework)
 
-**`[05]` accessibility-testing** — WCAG 2.2 AA testing, automated *and* by keyboard. axe-core found
-0 violations on SauceDemo; my keyboard audit found 7 WCAG failures, including a cart no keyboard user
-can reach. Each finding is documented with evidence and tracked by a test.
+**`[05]` accessibility-testing**<br>
+WCAG 2.2 AA testing of SauceDemo with axe-core and a keyboard audit. axe-core's WCAG rules reported
+0 violations. The keyboard audit found 7 WCAG failures, including a cart that keyboard users can't
+reach. Each finding has evidence and a test that tracks it.<br>
 `stack →` Playwright · axe-core · TypeScript · WCAG 2.2 &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/accessibility-testing)
 
 ## [ STATS ]
@@ -104,7 +105,7 @@ can reach. Each finding is documented with evidence and tracked by a test.
 ![SQL](https://img.shields.io/badge/SQL-1f6feb?style=flat-square&logo=postgresql&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-1f6feb?style=flat-square&logo=gnubash&logoColor=white)
 
-**Repositories** — live CI status
+**CI status by repository**
 
 | Project | CI | Stars |
 |---------|----|-------|
@@ -117,7 +118,5 @@ can reach. Each finding is documented with evidence and tracked by a test.
 ---
 
 ```
-vincentjerico@github ~ $ echo $PHILOSOPHY
-> Quality isn't an act — it's a habit. Building it, one green pipeline at a time.
 vincentjerico@github ~ $ ▮
 ```
