@@ -1,0 +1,13 @@
+# Same GitHub Actions update policy as the QA repos: one weekly grouped PR.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
+      include: scope
+    groups:
+      github-actions:
+        patterns: ["*"]

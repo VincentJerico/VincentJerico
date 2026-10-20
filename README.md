@@ -67,7 +67,8 @@ vincentjerico@github ~ $ cat mission.txt
 ## [ PROJECTS ]
 
 **`[01]` qa-engineering-journey** — full-spectrum QA portfolio: manual testing, test design, API,
-automation, SQL, performance, security, and AI evaluation — every area executed live and run in CI.
+automation, SQL, performance, security, and AI evaluation — every area executed live, with the
+automation, SQL checks, k6 scripts and AI evals gated in CI.
 `stack →` Playwright · k6 · SQL · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/qa-engineering-journey)
 
 **`[02]` taskflow-under-test** — an app I built *specifically to be tested*: unit + API + E2E coverage,
