@@ -3,11 +3,11 @@
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=VincentJerico.VincentJerico)](https://github.com/VincentJerico)
 [![GitHub followers](https://img.shields.io/github/followers/VincentJerico?label=Follow&style=social)](https://github.com/VincentJerico?tab=followers)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Playwright+%C2%B7+API+%C2%B7+Performance+%C2%B7+Accessibility;Cybersecurity+%2B+Cloud+enthusiast" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Software+QA+%E2%86%92+QA%2FQC+Engineer+%26+SDET;Playwright+%C2%B7+API+%C2%B7+Accessibility+%C2%B7+Security;Cybersecurity+%2B+Cloud+enthusiast" alt="typing" />
 
 **Talking about Personal Stuff!**
 
-- 🔭 I'm currently building my QA automation portfolio: Playwright frameworks, API, performance and accessibility testing.
+- 🔭 I'm currently building my QA automation portfolio: Playwright frameworks, API, performance, accessibility and security testing.
 - 🤔 I'm looking to grow into a **QA/QC Engineer & SDET**, and to go deeper into **Cybersecurity** and **Cloud Engineering**.
 - 💬 Ask me about test automation, Playwright, API testing, or anything QA.
 - 📫 How to reach me: [vincentjericoalcuran@gmail.com](mailto:vincentjericoalcuran@gmail.com)
@@ -31,7 +31,7 @@ vincentjerico@github ~ $ whoami
 
   role      : Software QA          # goal → QA/QC Engineer & SDET
   degree    : BSc in Information Technology
-  focus     : test automation · Playwright · API · performance · accessibility
+  focus     : test automation · Playwright · API · performance · accessibility · security
   exploring : Cybersecurity · Cloud Engineering
   location  : Philippines
   contact   : vincentjericoalcuran@gmail.com
@@ -39,7 +39,7 @@ vincentjerico@github ~ $ whoami
 vincentjerico@github ~ $ cat now.txt
 
   Building a public QA portfolio, one repo per testing skill,
-  each with its own CI. Next up: security testing and the cloud.
+  each with its own CI. Next up: the cloud.
 ```
 
 ## [ CONNECT ]
@@ -52,15 +52,15 @@ vincentjerico@github ~ $ cat now.txt
 
 | TESTING | AUTOMATION | API | DATA | CLOUD / DEVOPS | SECURITY |
 |---|---|---|---|---|---|
-| Manual · Exploratory | Playwright | Postman | SQL | GitHub Actions | OWASP checks |
+| Manual · Exploratory | Playwright | Postman | SQL | GitHub Actions · Docker | OWASP ZAP · Trivy |
 | Test design (EP/BVA) | Vitest · Supertest | REST | SQLite | Git · CI/CD | Auth / access control |
 | Bug reporting | k6 (performance) | Contract & status | Data validation | AWS *(learning)* | Security headers |
 
 **Languages & tools**
 
-<img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" />
+<img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,html,css,postman,sqlite,githubactions,docker,git,github,bash,vscode,aws&theme=dark" alt="languages and tools" />
 
-<sub>+ k6 · Vitest · Supertest · OWASP checks</sub>
+<sub>+ k6 · Vitest · Supertest · OWASP ZAP · Trivy</sub>
 
 ## [ PROJECTS ]
 
@@ -91,6 +91,13 @@ WCAG 2.2 AA testing of SauceDemo with axe-core and a keyboard audit. axe-core's 
 reach. Each finding has evidence and a test that tracks it.<br>
 `stack →` Playwright · axe-core · TypeScript · WCAG 2.2 &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/accessibility-testing)
 
+**`[06]` security-testing**<br>
+Defensive security checks against OWASP Juice Shop, running locally in Docker: a ZAP passive scan,
+header, error-page and session-cookie checks, and Trivy dependency scans, all gated in CI. The
+findings report maps 8 findings to the OWASP Top 10, and every check has a self-test that proves
+it can fail.<br>
+`stack →` Playwright · OWASP ZAP · Trivy · Docker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/security-testing)
+
 ## [ STATS ]
 
 ![Followers](https://img.shields.io/github/followers/VincentJerico?style=flat-square&logo=github&label=Followers&labelColor=0d1117&color=1f6feb)
@@ -114,6 +121,7 @@ reach. Each finding has evidence and a test that tracks it.<br>
 | [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [api-testing-framework](https://github.com/VincentJerico/api-testing-framework) | ![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/api-testing-framework?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/accessibility-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [security-testing](https://github.com/VincentJerico/security-testing) | ![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/security-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 
 ---
 
