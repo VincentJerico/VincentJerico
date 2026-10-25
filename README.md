@@ -9,7 +9,8 @@ Engineering next.
 
 **Highlights**
 
-- **6 public QA repos**, every one green in CI on GitHub Actions
+- **7 public QA repos**, every one green in CI on GitHub Actions
+- **A login flood that froze the whole API**: 60 logins/s pushed a 2 ms read to 12 s, traced to synchronous password hashing (k6)
 - **7 WCAG 2.2 failures** found by keyboard audit on a site where automated axe-core scans reported 0
 - **8 security findings** mapped to the OWASP Top 10, each check with a self-test proving it can fail
 - **Cross-browser** Playwright framework (Chromium, Firefox, WebKit) with fixtures, page objects and saved auth
@@ -30,7 +31,7 @@ vincentjerico@github ~ $ whoami
 
 vincentjerico@github ~ $ cat now.txt
 
-  Next repo: performance-testing (k6 load, stress and soak tests in CI).
+  Latest: performance-testing (k6, SLO-gated in CI). Next: the cloud.
 ```
 
 ## [ PROJECTS ]
@@ -69,6 +70,13 @@ findings report maps 8 findings to the OWASP Top 10, and every check has a self-
 it can fail.<br>
 `stack →` Playwright · OWASP ZAP · Trivy · Docker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/security-testing)
 
+**`[07]` performance-testing**<br>
+k6 performance tests for TaskFlow. Smoke and load tests run on every push and fail the build if any
+endpoint misses its latency budget; stress, spike, soak and breakpoint tests run nightly. Two
+experiments trace slowdowns to their cause: 60 logins per second pushed an unrelated 2 ms read to
+12 seconds, because password hashing blocks Node's only thread.<br>
+`stack →` k6 · JavaScript · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/performance-testing)
+
 ## [ STACK ]
 
 | TESTING | AUTOMATION | API | DATA | CLOUD / DEVOPS | SECURITY |
@@ -91,6 +99,7 @@ it can fail.<br>
 | [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/accessibility-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [security-testing](https://github.com/VincentJerico/security-testing) | ![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/security-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| [performance-testing](https://github.com/VincentJerico/performance-testing) | ![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/performance-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 
 ## [ CONTRIBUTIONS ]
 
