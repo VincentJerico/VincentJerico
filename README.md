@@ -17,6 +17,16 @@ Engineering next.
 
 ---
 
+## [ CONTRIBUTIONS ]
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+    <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
+  </picture>
+</p>
+
 ## [ ABOUT ]
 
 ```yaml
@@ -100,16 +110,6 @@ experiments trace slowdowns to their cause: 60 logins per second pushed an unrel
 | [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/accessibility-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [security-testing](https://github.com/VincentJerico/security-testing) | ![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/security-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
 | [performance-testing](https://github.com/VincentJerico/performance-testing) | ![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/performance-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
-
-## [ CONTRIBUTIONS ]
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
-    <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
-  </picture>
-</p>
 
 ## [ CONNECT ]
 
