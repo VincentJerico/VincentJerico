@@ -1,4 +1,4 @@
-# Hi, I'm [Vincent](https://github.com/VincentJerico) 👋
+# Hi, I'm [VJ](https://github.com/VincentJerico) 👋
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=QA+Engineer+%40+BossLabs.AI+%E2%86%92+SDET;Playwright+%C2%B7+API+%C2%B7+Accessibility+%C2%B7+Security;Every+suite+runs+in+CI" alt="QA Engineer at BossLabs.AI, on the path to SDET" />
 
