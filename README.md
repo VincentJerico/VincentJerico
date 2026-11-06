@@ -49,15 +49,15 @@ vincentjerico@github ~ $ cat now.txt
 
 ## [ PORTFOLIO ]
 
-| # | Repo | What it shows | Stack | CI |
-| --- | --- | --- | --- | --- |
-| 01 | [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey) | Nine QA areas, from manual test plans to CI, each run against a live app | Playwright · k6 · SQL | ![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) |
-| 02 | [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | A reusable UI automation starter: fixtures, page objects, saved login, 3 browsers in CI | Playwright · TypeScript | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) |
-| 03 | [api-testing-framework](https://github.com/VincentJerico/api-testing-framework) | Typed API tests with Zod contracts; every test deletes the data it creates | Playwright · Zod | ![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) |
-| 04 | [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | A task app I built to test, with unit, API and E2E suites and planted bugs to catch | Express · Vitest · Playwright | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) |
-| 05 | [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | WCAG 2.2 AA audit of SauceDemo: axe-core found 0, the keyboard audit found 7 | axe-core · Playwright | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) |
-| 06 | [security-testing](https://github.com/VincentJerico/security-testing) | Defensive checks against Juice Shop in Docker, gated in CI | OWASP ZAP · Trivy | ![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) |
-| 07 | [performance-testing](https://github.com/VincentJerico/performance-testing) | k6 suite with latency budgets on every push; stress, spike, soak and breakpoint nightly | k6 · GitHub Actions | ![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) |
+| Repo | What it shows | Stack |
+| --- | --- | --- |
+| **01** [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey)<br>![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | Nine QA areas, from manual test plans to CI, each run against a live app | Playwright · k6 · SQL |
+| **02** [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template)<br>![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | A reusable UI automation starter: fixtures, page objects, saved login, 3 browsers in CI | Playwright · TypeScript |
+| **03** [api-testing-framework](https://github.com/VincentJerico/api-testing-framework)<br>![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | Typed API tests with Zod contracts; every test deletes the data it creates | Playwright · Zod |
+| **04** [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test)<br>![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | A task app I built to test, with unit, API and E2E suites and planted bugs to catch | Express · Vitest · Playwright |
+| **05** [accessibility-testing](https://github.com/VincentJerico/accessibility-testing)<br>![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | WCAG 2.2 AA audit of SauceDemo: axe-core found 0, the keyboard audit found 7 | axe-core · Playwright |
+| **06** [security-testing](https://github.com/VincentJerico/security-testing)<br>![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | Defensive checks against Juice Shop in Docker, gated in CI | OWASP ZAP · Trivy |
+| **07** [performance-testing](https://github.com/VincentJerico/performance-testing)<br>![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) | k6 suite with latency budgets on every push; stress, spike, soak and breakpoint nightly | k6 · GitHub Actions |
 
 <details>
 <summary><b>More on each project</b></summary>
