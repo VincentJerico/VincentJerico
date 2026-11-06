@@ -1,21 +1,24 @@
-# Hi, I'm [VJ](https://github.com/VincentJerico) 👋
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&lines=QA+Engineer+%40+BossLabs.AI+%E2%86%92+SDET;Playwright+%C2%B7+API+%C2%B7+Accessibility+%C2%B7+Security;Every+suite+runs+in+CI" alt="QA Engineer at BossLabs.AI, on the path to SDET" />
+<h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.svg" />
+  <img alt="Vincent Jerico: QA Engineer at BossLabs.AI, on the path to SDET" src=".github/assets/banner-light.svg" width="100%" />
+</picture>
+</h1>
 
 I'm a QA Engineer at **BossLabs.AI**, where I test client business platforms before they ship. On GitHub
 I'm building a public QA automation portfolio: **one repo per testing skill**, each with its own CI,
 real targets, and written findings. I'm working toward an **SDET** role, with Cybersecurity and Cloud
 Engineering next.
 
-**Highlights**
+## [ SELECTED RESULTS ]
 
-- **7 public QA repos**, every one green in CI on GitHub Actions
-- **A login flood that froze the whole API**: 60 logins/s pushed a 2 ms read to 12 s, traced to synchronous password hashing (k6)
-- **7 WCAG 2.2 failures** found by keyboard audit on a site where automated axe-core scans reported 0
-- **8 security findings** mapped to the OWASP Top 10, each check with a self-test proving it can fail
-- **Cross-browser** Playwright framework (Chromium, Firefox, WebKit) with fixtures, page objects and saved auth
-
----
+| Result | How it was found | Evidence |
+| --- | --- | --- |
+| **A login flood froze the whole API.** 60 logins/s pushed an unrelated 2 ms read to 12 s at p95. | A k6 experiment traced it to synchronous password hashing (`scryptSync`) blocking Node's only thread. Fixed in TaskFlow with async `scrypt` and rate limiting on the auth routes. | [PERF-001](https://github.com/VincentJerico/performance-testing/blob/main/docs/FINDINGS.md#perf-001-login-traffic-stalls-every-other-request) · [fix](https://github.com/VincentJerico/taskflow-under-test/pull/18) |
+| **7 WCAG 2.2 failures on a site where axe-core reported 0.** | A keyboard and manual audit after the automated scan passed. One of them, a cart keyboard users can't reach, blocks checkout. | [Audit](https://github.com/VincentJerico/accessibility-testing/blob/main/docs/FINDINGS.md#summary) |
+| **8 security findings mapped to the OWASP Top 10.** | ZAP passive scan, header, cookie and error-page checks, and Trivy, against OWASP Juice Shop in Docker. Every check has a self-test that proves it can fail. | [Report](https://github.com/VincentJerico/security-testing/blob/main/docs/FINDINGS.md#summary) |
+| **A stored XSS in an app I built.** | Found by a later test audit of TaskFlow. The original suite, which caught all 4 planted bugs, had missed it. | [Write-up](https://github.com/VincentJerico/taskflow-under-test/blob/main/docs/BUGS-FOUND.md#found-by-audit--stored-xss-in-task-titles) |
+| **108 automated tests, each mapped to a manual case ID.** | 91 Playwright UI tests across 2 apps and 17 API tests, run in CI on every PR. | [Automation](https://github.com/VincentJerico/qa-engineering-journey/tree/main/04-automation) |
 
 ## [ CONTRIBUTIONS ]
 
@@ -41,83 +44,87 @@ vincentjerico@github ~ $ whoami
 
 vincentjerico@github ~ $ cat now.txt
 
-  Latest: performance-testing (k6, SLO-gated in CI). Next: the cloud.
+  Latest: fixed PERF-001 in TaskFlow and re-tested it with k6. Next: the cloud.
 ```
 
-## [ PROJECTS ]
+## [ PORTFOLIO ]
+
+| Repo | What it shows | Stack |
+| --- | --- | --- |
+| **01** [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey)<br>![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | Nine QA areas, from manual test plans to CI, each run against a live app | Playwright · k6 · SQL |
+| **02** [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template)<br>![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | A reusable UI automation starter: fixtures, page objects, saved login, 3 browsers in CI | Playwright · TypeScript |
+| **03** [api-testing-framework](https://github.com/VincentJerico/api-testing-framework)<br>![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | Typed API tests with Zod contracts; every test deletes the data it creates | Playwright · Zod |
+| **04** [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test)<br>![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | A task app I built to test, with unit, API and E2E suites and planted bugs to catch | Express · Vitest · Playwright |
+| **05** [accessibility-testing](https://github.com/VincentJerico/accessibility-testing)<br>![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | WCAG 2.2 AA audit of SauceDemo: axe-core found 0, the keyboard audit found 7 | axe-core · Playwright |
+| **06** [security-testing](https://github.com/VincentJerico/security-testing)<br>![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | Defensive checks against Juice Shop in Docker, gated in CI | OWASP ZAP · Trivy |
+| **07** [performance-testing](https://github.com/VincentJerico/performance-testing)<br>![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) | k6 suite with latency budgets on every push; stress, spike, soak and breakpoint nightly | k6 · GitHub Actions |
+
+<details>
+<summary><b>More on each project</b></summary>
+
+<br>
 
 **`[01]` qa-engineering-journey**<br>
 Manual testing, test design, API, UI automation, SQL, performance (k6), security and AI evaluation,
-each run against a live target. The automation, SQL checks, k6 scripts and AI evals run in CI.<br>
-`stack →` Playwright · k6 · SQL · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/qa-engineering-journey)
+each run against a live target. The automation, SQL checks, k6 scripts and AI evals run in CI.
 
 **`[02]` playwright-framework-template**<br>
 A reusable Playwright + TypeScript starter with custom fixtures, page objects, per-environment config,
-saved login state, data factories, and CI on Chromium, Firefox and WebKit.<br>
-`stack →` Playwright · TypeScript · Faker · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/playwright-framework-template)
+saved login state, data factories, and CI on Chromium, Firefox and WebKit.
 
 **`[03]` api-testing-framework**<br>
 Typed API tests on Playwright's request API. Zod schemas check each response through a custom
 `toMatchSchema` matcher, fixtures handle auth, and every test deletes the data it creates. CI also
-runs weekly to catch changes in the live API.<br>
-`stack →` Playwright · TypeScript · Zod · Faker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/api-testing-framework)
+runs weekly to catch changes in the live API.
 
 **`[04]` taskflow-under-test**<br>
 A small task-manager app I built to test. It has unit, API and E2E suites, a written test strategy,
-and a set of planted bugs the suite has to catch.<br>
-`stack →` Express · SQLite · Vitest · Playwright &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/taskflow-under-test)
+and a set of planted bugs the suite has to catch.
 
 **`[05]` accessibility-testing**<br>
 WCAG 2.2 AA testing of SauceDemo with axe-core and a keyboard audit. axe-core's WCAG rules reported
 0 violations. The keyboard audit found 7 WCAG failures, including a cart that keyboard users can't
-reach. Each finding has evidence and a test that tracks it.<br>
-`stack →` Playwright · axe-core · TypeScript · WCAG 2.2 &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/accessibility-testing)
+reach. Each finding has evidence and a test that tracks it.
 
 **`[06]` security-testing**<br>
 Defensive security checks against OWASP Juice Shop, running locally in Docker: a ZAP passive scan,
 header, error-page and session-cookie checks, and Trivy dependency scans, all gated in CI. The
 findings report maps 8 findings to the OWASP Top 10, and every check has a self-test that proves
-it can fail.<br>
-`stack →` Playwright · OWASP ZAP · Trivy · Docker &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/security-testing)
+it can fail.
 
 **`[07]` performance-testing**<br>
 k6 performance tests for TaskFlow. Smoke and load tests run on every push and fail the build if any
 endpoint misses its latency budget; stress, spike, soak and breakpoint tests run nightly. Two
 experiments trace slowdowns to their cause: 60 logins per second pushed an unrelated 2 ms read to
-12 seconds, because password hashing blocks Node's only thread.<br>
-`stack →` k6 · JavaScript · GitHub Actions &nbsp;·&nbsp; [**‹ code ›**](https://github.com/VincentJerico/performance-testing)
+12 seconds, because password hashing blocked Node's only thread.
 
-## [ STACK ]
+</details>
 
-| TESTING | AUTOMATION | API | DATA | CLOUD / DEVOPS | SECURITY |
-|---|---|---|---|---|---|
-| Manual · Exploratory | Playwright | Postman | SQL | GitHub Actions · Docker | OWASP ZAP · Trivy |
-| Test design (EP/BVA) | Vitest · Supertest | REST | SQLite | Git · CI/CD | Auth / access control |
-| Bug reporting | k6 (performance) | Contract & schema | Data validation | AWS *(learning)* | Security headers |
+## [ HOW I WORK ]
 
-<img src="https://skillicons.dev/icons?i=playwright,ts,js,nodejs,postman,sqlite,githubactions,docker,git,bash,aws&theme=dark" alt="Playwright, TypeScript, JavaScript, Node.js, Postman, SQLite, GitHub Actions, Docker, Git, Bash, AWS" />
+- **A gate has to be able to fail.** The security checks, the axe-core gate and the k6 latency
+  budgets each have a self-test that plants a defect and expects a red build.
+- **Every number comes from a real run.** Results record the target, tools and environment they
+  came from. If something wasn't measured, the write-up says so.
+- **Findings are written as tickets.** Each has an ID, a severity, evidence, the root cause and a
+  recommendation.
+- **Targets are pinned.** The k6 suite pins TaskFlow to a commit and the security suite pins Juice
+  Shop to a version, so a result changes only when the code does.
 
-<sub>+ k6 · Vitest · Supertest · Zod · axe-core · OWASP ZAP · Trivy</sub>
+## [ TOOLBOX ]
 
-## [ CI STATUS ]
-
-| Project | CI | Stars |
-|---------|----|-------|
-| [qa-engineering-journey](https://github.com/VincentJerico/qa-engineering-journey) | ![CI](https://github.com/VincentJerico/qa-engineering-journey/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/qa-engineering-journey?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [playwright-framework-template](https://github.com/VincentJerico/playwright-framework-template) | ![CI](https://github.com/VincentJerico/playwright-framework-template/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/playwright-framework-template?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [api-testing-framework](https://github.com/VincentJerico/api-testing-framework) | ![CI](https://github.com/VincentJerico/api-testing-framework/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/api-testing-framework?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [taskflow-under-test](https://github.com/VincentJerico/taskflow-under-test) | ![CI](https://github.com/VincentJerico/taskflow-under-test/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/taskflow-under-test?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [accessibility-testing](https://github.com/VincentJerico/accessibility-testing) | ![CI](https://github.com/VincentJerico/accessibility-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/accessibility-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [security-testing](https://github.com/VincentJerico/security-testing) | ![CI](https://github.com/VincentJerico/security-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/security-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
-| [performance-testing](https://github.com/VincentJerico/performance-testing) | ![CI](https://github.com/VincentJerico/performance-testing/actions/workflows/ci.yml/badge.svg) | ![Stars](https://img.shields.io/github/stars/VincentJerico/performance-testing?style=flat-square&labelColor=0d1117&color=1f6feb) |
+| Area | Tools | Used in |
+| --- | --- | --- |
+| UI automation | Playwright, TypeScript, Faker | [02](https://github.com/VincentJerico/playwright-framework-template) · [04](https://github.com/VincentJerico/taskflow-under-test) · [05](https://github.com/VincentJerico/accessibility-testing) |
+| API | Playwright request API, Zod, Supertest, Postman | [03](https://github.com/VincentJerico/api-testing-framework) · [04](https://github.com/VincentJerico/taskflow-under-test) · [01](https://github.com/VincentJerico/qa-engineering-journey) |
+| Performance | k6 | [07](https://github.com/VincentJerico/performance-testing) · [01](https://github.com/VincentJerico/qa-engineering-journey) |
+| Accessibility | axe-core, keyboard audit, WCAG 2.2 | [05](https://github.com/VincentJerico/accessibility-testing) |
+| Security | OWASP ZAP, Trivy, npm audit | [06](https://github.com/VincentJerico/security-testing) |
+| Unit and data | Vitest, SQL, SQLite | [04](https://github.com/VincentJerico/taskflow-under-test) · [01](https://github.com/VincentJerico/qa-engineering-journey) |
+| CI and tooling | GitHub Actions, Docker, Git | Every repo; Docker in [06](https://github.com/VincentJerico/security-testing) |
+| Learning | AWS | |
 
 ## [ CONNECT ]
 
 [![Email](https://img.shields.io/badge/Email-1f6feb?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vincentjericoalcuran@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VincentJerico)
-
----
-
-```
-vincentjerico@github ~ $ ▮
-```
