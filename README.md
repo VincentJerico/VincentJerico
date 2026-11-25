@@ -1,4 +1,5 @@
 # Hey, I'm VJ 👋
+I'm a QA engineer at BossLabs.AI based in Cavite, Philippines. I like figuring out why things break.
 
 ## Contributions
 
@@ -9,10 +10,6 @@
     <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VincentJerico/VincentJerico/output/github-snake.svg" />
   </picture>
 </p>
-
-## About
-
-I'm a QA engineer at BossLabs.AI based in Cavite, Philippines. I like figuring out why things break.
 
 ## Stack
 
